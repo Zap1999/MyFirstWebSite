@@ -1,0 +1,160 @@
+.mycontainer {
+  height: 100%;
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header .mycontainer {
+  width: 1200px!important;
+  display: flex;
+  justify-content: space-between;
+}
+
+#logo {
+  margin-left: 3px;
+  width: 100px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#logo img {
+  width: 33px;
+    margin-bottom: -5px;
+    margin-top: -5px;
+}
+
+header {
+  background-color: #00897B;
+}
+
+body {
+  background-color: #F5F5F5!important;
+}
+
+header {
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+#body {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#menu {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#menu a {
+  color: white;
+  text-decoration: none;
+  width: auto;
+}
+
+.mymenu-button {
+  color: white;
+  font-size: 18px;
+  width: auto;
+  padding: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+  transition:all 0.3s ease;
+}
+
+.mymenu-button:hover{
+  background-color: #00796B;
+  cursor: pointer;
+  transition:all 0.3s ease;
+}
+
+.mysubmenu {
+  margin-top: 15px;
+  margin-left: -20px;
+  position: absolute;
+  display: none;
+  width: auto;
+  background-color: #00897B;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.mymenu-button:hover .mysubmenu {
+  display: block;
+  z-index: 9999;
+}
+
+#verify {
+  float: right;
+  margin-bottom: 20px;
+}
+
+#idk {
+  margin-top: 20px;
+}
+
+#adding {
+  display: none;
+}
+.hidden {
+  display: none!important;
+}
+.reveal {
+  display: block!important;
+}
+.posrelative {
+  position: relative;
+}
+.posabsolute {
+  position: absolute;
+}
+#supersecret {
+  display:none;
+}
+
+#tableDB {
+  display: none;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.msgg {
+  background-color: white;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 15px;
+}
+
+.search {
+  display: flex;
+    align-items: stretch; /* Default */
+    justify-content: space-between;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.searchField {
+    display: block;
+    flex: 0 1 auto; /* Default */
+    list-style-type: none;
+    background: #fafafa;
+}
+
+
+.dFlex {
+  display: flex!important;
+}

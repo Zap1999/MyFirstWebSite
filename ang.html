@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+<body>
+  <div ng-app="myApp" w3-test-directive></div>
+  <script>
+  var app = angular.module("myApp", []);
+  app.directive("w3TestDirective", function() {
+      return {
+          template : "<p>Isnt it funny?</p><p>Anything: <input type='text' ng-model='name'></p><p ng-bind='name'></p>"
+      };
+  });
+  </script>
+</body>
+</html>
